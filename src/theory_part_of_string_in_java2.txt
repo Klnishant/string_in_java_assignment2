@@ -1,0 +1,49 @@
+Q2. How do you concenate two string in java give an example?
+ans--> In Java, we can concatenate two strings using the "+" operator. For example:
+
+String str1 = "Hello";
+String str2 = "World";
+String str3 = str1 + " " + str2;
+System.out.println(str3);
+
+In Java, we can also concatenate two strings using the concat method of the String class. For example:
+String str1 = "Hello";
+String str2 = "World";
+String str3 = str1.concat(" ").concat(str2);
+System.out.println(str3);
+
+This code will print "Hello World" to the console.
+
+Q3. How do you find the length of the string in java explain with an example?
+Ans--> In Java, we can find the length of a string using the length() method of the String class. For example:
+
+String str = "Hello World";
+int length = str.length();
+System.out.println("Length of the string is: " + length);
+
+This code will print "Length of the string is: 11" to the console.
+
+Q4. How do you compare two string in java give an example?
+Ans--> In Java, we can compare two strings using the equals method of the String class. For example:
+
+String str1 = "Hello";
+String str2 = "Hello";
+if (str1.equals(str2)) {
+    System.out.println("The strings are equal.");
+} else {
+    System.out.println("The strings are not equal.");
+}
+
+This code will print "The strings are equal." to the console.
+
+we can also compare two strings using the equalsIgnoreCase method, which ignores the case of the strings when comparing them. For example:
+
+String str1 = "Hello";
+String str2 = "hello";
+if (str1.equalsIgnoreCase(str2)) {
+    System.out.println("The strings are equal.");
+} else {
+    System.out.println("The strings are not equal.");
+}
+
+This code will also print "The strings are equal." to the console.
